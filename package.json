@@ -1,0 +1,23 @@
+{
+  "name": "zknetworks",
+  "version": "1.0.0",
+  "description": "a tool based on zero knowledge proof",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhijitSarkaar/zkNetworks.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum"
+  ],
+  "author": "abhijit sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhijitSarkaar/zkNetworks/issues"
+  },
+  "homepage": "https://github.com/AbhijitSarkaar/zkNetworks#readme"
+}
