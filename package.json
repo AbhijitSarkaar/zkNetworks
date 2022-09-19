@@ -1,23 +1,31 @@
 {
-  "name": "zknetworks",
-  "version": "1.0.0",
-  "description": "a tool based on zero knowledge proof",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AbhijitSarkaar/zkNetworks.git"
-  },
-  "keywords": [
-    "blockchain",
-    "ethereum"
-  ],
-  "author": "abhijit sarkar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AbhijitSarkaar/zkNetworks/issues"
-  },
-  "homepage": "https://github.com/AbhijitSarkaar/zkNetworks#readme"
+    "name": "zknetworks",
+    "version": "1.0.0",
+    "description": "a tool based on zero knowledge proof",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config ./config/webpack.config.js",
+        "dev": "webpack serve --config ./config/webpack.dev.js --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AbhijitSarkaar/zkNetworks.git"
+    },
+    "keywords": [
+        "blockchain",
+        "ethereum"
+    ],
+    "author": "abhijit sarkar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AbhijitSarkaar/zkNetworks/issues"
+    },
+    "homepage": "https://github.com/AbhijitSarkaar/zkNetworks#readme",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.5.0",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.0",
+        "webpack-merge": "^5.8.0"
+    }
 }
